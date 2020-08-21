@@ -15,7 +15,7 @@ size=[s for s in size_table if any(xs in s for xs in matchers)]
 size2=[]
 for i in range(len(size)):
     size2.append(size[i].split())
-
+ 
 if '총장' and '소매길이' and '어깨너비' and '가슴둘레' not in size2[1][0] + size2[2][0] + size2[3][0] + size2[4][0]:
     pass
 else:
